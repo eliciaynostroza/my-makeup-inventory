@@ -1,38 +1,34 @@
-.App {
+
+body, html {
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    width: 100%; /* Full width of the viewport */
+    height: 100%; /* Full height of the viewport */
+    overflow-x: hidden; /* Prevents horizontal overflow */
+}
+
+.mainDiv {
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    background-color: #ffffff; /* Red background */
+    width: 100%; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    box-sizing: border-box; /* Ensures padding and border are included */
+}
+
+.loginDiv {
+    background-color: #df9fd6; /* Pinkish background color */
+    box-sizing: border-box; /* Includes padding and border in the dimensions */
+    max-width: 800px; /* Restricts the maximum width */
+    width: 100%; /* Responsive width */
+    height: 90vh;
+    padding: 10%; /* Adds padding */
+    margin: 0 auto; /* Centers the loginDiv */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.title {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
